@@ -1,0 +1,25 @@
+.Blog .card {
+    margin: .5rem 0;
+}
+
+.Blog .card .card-header {
+    text-transform: capitalize;
+}
+
+.Blog .col-sm-6:nth-last-of-type(even) {
+    padding-left: 0;
+}
+
+.Blog .col-sm-6:nth-last-of-type(odd) {
+    padding-right: 0;
+}
+
+.Blog .card .flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem 1rem;
+}
+
+.Blog .card .flex-container .btn-primary {
+    margin-right: 1rem;
+}

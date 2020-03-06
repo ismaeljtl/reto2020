@@ -1,0 +1,16 @@
+.CounterLS { 
+    margin: 1rem;
+}
+.CounterLS .container .row>[class^=col-] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: .5rem;
+}
+
+.CounterLS .container .row>[class^=col-] p, 
+.CounterLS .container .row>[class^=col-] h1 {
+    margin: 0;
+}
