@@ -6,11 +6,6 @@
     display: flex;
     align-items: center;
 }
-
-.navbar div img {
-    width: 25%;
-}
-
 .navbar div h3 {
     margin: 0;
     padding-left: 1rem;
